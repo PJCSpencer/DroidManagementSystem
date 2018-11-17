@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22F1EF3218B5F6C008CC186 /* sAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F1EF2218B5F6C008CC186 /* sAppDelegate.swift */; };
+		C22F1EF8218B5F6C008CC186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22F1EF6218B5F6C008CC186 /* Main.storyboard */; };
+		C22F1EFA218B5F6E008CC186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22F1EF9218B5F6E008CC186 /* Assets.xcassets */; };
+		C22F1EFD218B5F6E008CC186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22F1EFB218B5F6E008CC186 /* LaunchScreen.storyboard */; };
+		C293AD3C218CBFCE0042C7FD /* sKorribanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293AD3B218CBFCE0042C7FD /* sKorribanView.swift */; };
+		C293AD43218CC6800042C7FD /* sFoundation-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293AD42218CC6800042C7FD /* sFoundation-ext.swift */; };
+		C293AD45218CFEED0042C7FD /* sSceneKit-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293AD44218CFEED0042C7FD /* sSceneKit-ext.swift */; };
+		C293ADA9218D98470042C7FD /* bottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C293ADA3218D98470042C7FD /* bottom.jpg */; };
+		C293ADAA218D98470042C7FD /* left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C293ADA4218D98470042C7FD /* left.jpg */; };
+		C293ADAB218D98470042C7FD /* top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C293ADA5218D98470042C7FD /* top.jpg */; };
+		C293ADAC218D98470042C7FD /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C293ADA6218D98470042C7FD /* back.jpg */; };
+		C293ADAD218D98470042C7FD /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C293ADA7218D98470042C7FD /* right.jpg */; };
+		C293ADAE218D98470042C7FD /* front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C293ADA8218D98470042C7FD /* front.jpg */; };
+		C293ADB9218DBD3A0042C7FD /* sProbeDroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADB8218DBD3A0042C7FD /* sProbeDroid.swift */; };
+		C293ADC1218EE7180042C7FD /* sMockedDCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADC0218EE7180042C7FD /* sMockedDCS.swift */; };
+		C293ADCB218F48D00042C7FD /* sDataSourceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADC8218F48D00042C7FD /* sDataSourceSection.swift */; };
+		C293ADCD218F48D00042C7FD /* sDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADCA218F48D00042C7FD /* sDataSource.swift */; };
+		C293ADCF218F4A680042C7FD /* sTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADCE218F4A680042C7FD /* sTableViewDataSource.swift */; };
+		C293ADD2218F4D570042C7FD /* sDataSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADD1218F4D570042C7FD /* sDataSourceController.swift */; };
+		C293ADD6218F4E4A0042C7FD /* sProbeDroidDataSourceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADD5218F4E4A0042C7FD /* sProbeDroidDataSourceSection.swift */; };
+		C293ADD8218F4EBD0042C7FD /* sProbeDroidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADD7218F4EBD0042C7FD /* sProbeDroidTableViewCell.swift */; };
+		C293ADDB218F4FC10042C7FD /* sProbeDroidDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADDA218F4FC10042C7FD /* sProbeDroidDataSource.swift */; };
+		C293ADDD218F50A10042C7FD /* sProbeDroidNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADDC218F50A10042C7FD /* sProbeDroidNode.swift */; };
+		C293ADE1218F9E850042C7FD /* sMockedDMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADE0218F9E850042C7FD /* sMockedDMS.swift */; };
+		C293ADE3218FA2A30042C7FD /* sServerSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293ADE2218FA2A30042C7FD /* sServerSockets.swift */; };
+		C2A2DD9E2190716A00D020C1 /* sJSONSerialization-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DD9D2190716A00D020C1 /* sJSONSerialization-ext.swift */; };
+		C2A2DDA0219194C800D020C1 /* sMockedDCS-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DD9F219194C800D020C1 /* sMockedDCS-ext.swift */; };
+		C2A2DDA221919E1C00D020C1 /* sProbeDroid-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DDA121919E1C00D020C1 /* sProbeDroid-ext.swift */; };
+		C2A2DDA42191F78D00D020C1 /* sProbeDroidMoveCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DDA32191F78D00D020C1 /* sProbeDroidMoveCordinator.swift */; };
+		C2A2DDA7219312E500D020C1 /* sSpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DDA6219312E500D020C1 /* sSpeechController.swift */; };
+		C2A2DDA92193158200D020C1 /* sSpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DDA82193158200D020C1 /* sSpeechView.swift */; };
+		C2A2DDAB21935DF800D020C1 /* sProbeDroidSpeechInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DDAA21935DF800D020C1 /* sProbeDroidSpeechInterpreter.swift */; };
+		C2A2DDAD2193616200D020C1 /* sSpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2DDAC2193616200D020C1 /* sSpeechEngine.swift */; };
+		C2F3583C219455CF00EF243A /* sAlertPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3583B219455CF00EF243A /* sAlertPanel.swift */; };
+		C2F3583E219460D300EF243A /* sUIKit-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3583D219460D300EF243A /* sUIKit-ext.swift */; };
+		C2F3584121958AB900EF243A /* sProbeDroidDataSourceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3584021958AB900EF243A /* sProbeDroidDataSourceObject.swift */; };
+		C2F358432195A9E400EF243A /* sAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F358422195A9E400EF243A /* sAppController.swift */; };
+		C2F358472195C36500EF243A /* Korriban.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2F358462195C36500EF243A /* Korriban.jpg */; };
+		C2F3584B2196E56700EF243A /* sProbeDroidScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3584A2196E56700EF243A /* sProbeDroidScene.swift */; };
+		C2F3586021971AB800EF243A /* sSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3585F21971AB800EF243A /* sSceneController.swift */; };
+		C2F3586221971D8700EF243A /* sIntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3586121971D8700EF243A /* sIntroScene.swift */; };
+		C2F3586821986CD200EF243A /* sDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3586721986CD200EF243A /* sDetection.swift */; };
+		C2F3586A2198A1D700EF243A /* sProbeDroidDataSource-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F358692198A1D700EF243A /* sProbeDroidDataSource-ext.swift */; };
+		C2F3586C2198A37100EF243A /* sLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3586B2198A37100EF243A /* sLocation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C22F1EEF218B5F6C008CC186 /* DMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22F1EF2218B5F6C008CC186 /* sAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sAppDelegate.swift; sourceTree = "<group>"; };
+		C22F1EF7218B5F6C008CC186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C22F1EF9218B5F6E008CC186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22F1EFC218B5F6E008CC186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C22F1EFE218B5F6E008CC186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C293AD3B218CBFCE0042C7FD /* sKorribanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sKorribanView.swift; sourceTree = "<group>"; };
+		C293AD42218CC6800042C7FD /* sFoundation-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sFoundation-ext.swift"; sourceTree = "<group>"; };
+		C293AD44218CFEED0042C7FD /* sSceneKit-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sSceneKit-ext.swift"; sourceTree = "<group>"; };
+		C293ADA3218D98470042C7FD /* bottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottom.jpg; sourceTree = "<group>"; };
+		C293ADA4218D98470042C7FD /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		C293ADA5218D98470042C7FD /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
+		C293ADA6218D98470042C7FD /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		C293ADA7218D98470042C7FD /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		C293ADA8218D98470042C7FD /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
+		C293ADB8218DBD3A0042C7FD /* sProbeDroid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroid.swift; sourceTree = "<group>"; };
+		C293ADC0218EE7180042C7FD /* sMockedDCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sMockedDCS.swift; sourceTree = "<group>"; };
+		C293ADC8218F48D00042C7FD /* sDataSourceSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sDataSourceSection.swift; sourceTree = "<group>"; };
+		C293ADCA218F48D00042C7FD /* sDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sDataSource.swift; sourceTree = "<group>"; };
+		C293ADCE218F4A680042C7FD /* sTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sTableViewDataSource.swift; sourceTree = "<group>"; };
+		C293ADD1218F4D570042C7FD /* sDataSourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sDataSourceController.swift; sourceTree = "<group>"; };
+		C293ADD5218F4E4A0042C7FD /* sProbeDroidDataSourceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidDataSourceSection.swift; sourceTree = "<group>"; };
+		C293ADD7218F4EBD0042C7FD /* sProbeDroidTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidTableViewCell.swift; sourceTree = "<group>"; };
+		C293ADDA218F4FC10042C7FD /* sProbeDroidDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidDataSource.swift; sourceTree = "<group>"; };
+		C293ADDC218F50A10042C7FD /* sProbeDroidNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidNode.swift; sourceTree = "<group>"; };
+		C293ADE0218F9E850042C7FD /* sMockedDMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sMockedDMS.swift; sourceTree = "<group>"; };
+		C293ADE2218FA2A30042C7FD /* sServerSockets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sServerSockets.swift; sourceTree = "<group>"; };
+		C2A2DD9D2190716A00D020C1 /* sJSONSerialization-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sJSONSerialization-ext.swift"; sourceTree = "<group>"; };
+		C2A2DD9F219194C800D020C1 /* sMockedDCS-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sMockedDCS-ext.swift"; sourceTree = "<group>"; };
+		C2A2DDA121919E1C00D020C1 /* sProbeDroid-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sProbeDroid-ext.swift"; sourceTree = "<group>"; };
+		C2A2DDA32191F78D00D020C1 /* sProbeDroidMoveCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidMoveCordinator.swift; sourceTree = "<group>"; };
+		C2A2DDA6219312E500D020C1 /* sSpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sSpeechController.swift; sourceTree = "<group>"; };
+		C2A2DDA82193158200D020C1 /* sSpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sSpeechView.swift; sourceTree = "<group>"; };
+		C2A2DDAA21935DF800D020C1 /* sProbeDroidSpeechInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidSpeechInterpreter.swift; sourceTree = "<group>"; };
+		C2A2DDAC2193616200D020C1 /* sSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sSpeechEngine.swift; sourceTree = "<group>"; };
+		C2F3583B219455CF00EF243A /* sAlertPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sAlertPanel.swift; sourceTree = "<group>"; };
+		C2F3583D219460D300EF243A /* sUIKit-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sUIKit-ext.swift"; sourceTree = "<group>"; };
+		C2F3584021958AB900EF243A /* sProbeDroidDataSourceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidDataSourceObject.swift; sourceTree = "<group>"; };
+		C2F358422195A9E400EF243A /* sAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sAppController.swift; sourceTree = "<group>"; };
+		C2F358462195C36500EF243A /* Korriban.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Korriban.jpg; sourceTree = "<group>"; };
+		C2F3584A2196E56700EF243A /* sProbeDroidScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sProbeDroidScene.swift; sourceTree = "<group>"; };
+		C2F3585F21971AB800EF243A /* sSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sSceneController.swift; sourceTree = "<group>"; };
+		C2F3586121971D8700EF243A /* sIntroScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sIntroScene.swift; sourceTree = "<group>"; };
+		C2F3586721986CD200EF243A /* sDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sDetection.swift; sourceTree = "<group>"; };
+		C2F358692198A1D700EF243A /* sProbeDroidDataSource-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sProbeDroidDataSource-ext.swift"; sourceTree = "<group>"; };
+		C2F3586B2198A37100EF243A /* sLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sLocation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22F1EEC218B5F6C008CC186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22F1EE6218B5F6C008CC186 = {
+			isa = PBXGroup;
+			children = (
+				C22F1EF1218B5F6C008CC186 /* DroidManagementSystem */,
+				C22F1EF0218B5F6C008CC186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22F1EF0218B5F6C008CC186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22F1EEF218B5F6C008CC186 /* DMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22F1EF1218B5F6C008CC186 /* DroidManagementSystem */ = {
+			isa = PBXGroup;
+			children = (
+				C22F1EF2218B5F6C008CC186 /* sAppDelegate.swift */,
+				C22F1F04218B5FBD008CC186 /* Class */,
+				C293AD3E218CC22F0042C7FD /* Resource */,
+				C22F1EF9218B5F6E008CC186 /* Assets.xcassets */,
+				C22F1EF6218B5F6C008CC186 /* Main.storyboard */,
+				C22F1EFB218B5F6E008CC186 /* LaunchScreen.storyboard */,
+				C22F1EFE218B5F6E008CC186 /* Info.plist */,
+			);
+			path = DroidManagementSystem;
+			sourceTree = "<group>";
+		};
+		C22F1F04218B5FBD008CC186 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C22F1F08218B5FE5008CC186 /* Extension */,
+				C293AD46218D17890042C7FD /* SceneKit */,
+				C293ADC7218F48970042C7FD /* DataSource */,
+				C293AD36218C8ECA0042C7FD /* Model */,
+				C22F1F07218B5FDC008CC186 /* Network */,
+				C22F1F05218B5FC9008CC186 /* Controller */,
+				C22F1F06218B5FD1008CC186 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C22F1F05218B5FC9008CC186 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2F358422195A9E400EF243A /* sAppController.swift */,
+				C2F3585F21971AB800EF243A /* sSceneController.swift */,
+				C2A2DDA6219312E500D020C1 /* sSpeechController.swift */,
+				C293ADD1218F4D570042C7FD /* sDataSourceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C22F1F06218B5FD1008CC186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2F3583A219455BD00EF243A /* Utility */,
+				C293AD3B218CBFCE0042C7FD /* sKorribanView.swift */,
+				C293ADD7218F4EBD0042C7FD /* sProbeDroidTableViewCell.swift */,
+				C2A2DDA82193158200D020C1 /* sSpeechView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C22F1F07218B5FDC008CC186 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C293ADC0218EE7180042C7FD /* sMockedDCS.swift */,
+				C2A2DD9F219194C800D020C1 /* sMockedDCS-ext.swift */,
+				C293ADE2218FA2A30042C7FD /* sServerSockets.swift */,
+				C2A2DDAC2193616200D020C1 /* sSpeechEngine.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C22F1F08218B5FE5008CC186 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C293AD42218CC6800042C7FD /* sFoundation-ext.swift */,
+				C2A2DD9D2190716A00D020C1 /* sJSONSerialization-ext.swift */,
+				C293AD44218CFEED0042C7FD /* sSceneKit-ext.swift */,
+				C2F3583D219460D300EF243A /* sUIKit-ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C293AD36218C8ECA0042C7FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2F3586721986CD200EF243A /* sDetection.swift */,
+				C2F3586B2198A37100EF243A /* sLocation.swift */,
+				C293ADB8218DBD3A0042C7FD /* sProbeDroid.swift */,
+				C2A2DDA121919E1C00D020C1 /* sProbeDroid-ext.swift */,
+				C2A2DDA32191F78D00D020C1 /* sProbeDroidMoveCordinator.swift */,
+				C2A2DDAA21935DF800D020C1 /* sProbeDroidSpeechInterpreter.swift */,
+				C293ADE0218F9E850042C7FD /* sMockedDMS.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C293AD3E218CC22F0042C7FD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C293AD49218D8F900042C7FD /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C293AD46218D17890042C7FD /* SceneKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2F3586121971D8700EF243A /* sIntroScene.swift */,
+				C2F3584A2196E56700EF243A /* sProbeDroidScene.swift */,
+				C293ADDC218F50A10042C7FD /* sProbeDroidNode.swift */,
+			);
+			path = SceneKit;
+			sourceTree = "<group>";
+		};
+		C293AD49218D8F900042C7FD /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C2F358462195C36500EF243A /* Korriban.jpg */,
+				C293ADA2218D98470042C7FD /* GalaxyFarFarAway */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C293ADA2218D98470042C7FD /* GalaxyFarFarAway */ = {
+			isa = PBXGroup;
+			children = (
+				C293ADA3218D98470042C7FD /* bottom.jpg */,
+				C293ADA4218D98470042C7FD /* left.jpg */,
+				C293ADA5218D98470042C7FD /* top.jpg */,
+				C293ADA6218D98470042C7FD /* back.jpg */,
+				C293ADA7218D98470042C7FD /* right.jpg */,
+				C293ADA8218D98470042C7FD /* front.jpg */,
+			);
+			path = GalaxyFarFarAway;
+			sourceTree = "<group>";
+		};
+		C293ADC7218F48970042C7FD /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				C293ADCA218F48D00042C7FD /* sDataSource.swift */,
+				C293ADC8218F48D00042C7FD /* sDataSourceSection.swift */,
+				C293ADCE218F4A680042C7FD /* sTableViewDataSource.swift */,
+				C293ADD9218F4FAE0042C7FD /* Extended */,
+				C293ADD0218F4D110042C7FD /* Custom */,
+				C2F3583F21958A9C00EF243A /* Objects */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		C293ADD0218F4D110042C7FD /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				C293ADD5218F4E4A0042C7FD /* sProbeDroidDataSourceSection.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C293ADD9218F4FAE0042C7FD /* Extended */ = {
+			isa = PBXGroup;
+			children = (
+				C293ADDA218F4FC10042C7FD /* sProbeDroidDataSource.swift */,
+				C2F358692198A1D700EF243A /* sProbeDroidDataSource-ext.swift */,
+			);
+			path = Extended;
+			sourceTree = "<group>";
+		};
+		C2F3583A219455BD00EF243A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C2F3583B219455CF00EF243A /* sAlertPanel.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C2F3583F21958A9C00EF243A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C2F3584021958AB900EF243A /* sProbeDroidDataSourceObject.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22F1EEE218B5F6C008CC186 /* DMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22F1F01218B5F6E008CC186 /* Build configuration list for PBXNativeTarget "DMS" */;
+			buildPhases = (
+				C22F1EEB218B5F6C008CC186 /* Sources */,
+				C22F1EEC218B5F6C008CC186 /* Frameworks */,
+				C22F1EED218B5F6C008CC186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMS;
+			productName = DroidManagementSystem;
+			productReference = C22F1EEF218B5F6C008CC186 /* DMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22F1EE7218B5F6C008CC186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Peter Spencer";
+				TargetAttributes = {
+					C22F1EEE218B5F6C008CC186 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = C22F1EEA218B5F6C008CC186 /* Build configuration list for PBXProject "DroidManagementSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22F1EE6218B5F6C008CC186;
+			productRefGroup = C22F1EF0218B5F6C008CC186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22F1EEE218B5F6C008CC186 /* DMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22F1EED218B5F6C008CC186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F358472195C36500EF243A /* Korriban.jpg in Resources */,
+				C293ADAC218D98470042C7FD /* back.jpg in Resources */,
+				C22F1EFD218B5F6E008CC186 /* LaunchScreen.storyboard in Resources */,
+				C22F1EFA218B5F6E008CC186 /* Assets.xcassets in Resources */,
+				C293ADAE218D98470042C7FD /* front.jpg in Resources */,
+				C293ADAD218D98470042C7FD /* right.jpg in Resources */,
+				C22F1EF8218B5F6C008CC186 /* Main.storyboard in Resources */,
+				C293ADAB218D98470042C7FD /* top.jpg in Resources */,
+				C293ADAA218D98470042C7FD /* left.jpg in Resources */,
+				C293ADA9218D98470042C7FD /* bottom.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22F1EEB218B5F6C008CC186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C293ADE3218FA2A30042C7FD /* sServerSockets.swift in Sources */,
+				C293ADDB218F4FC10042C7FD /* sProbeDroidDataSource.swift in Sources */,
+				C293ADD6218F4E4A0042C7FD /* sProbeDroidDataSourceSection.swift in Sources */,
+				C293ADCB218F48D00042C7FD /* sDataSourceSection.swift in Sources */,
+				C293AD3C218CBFCE0042C7FD /* sKorribanView.swift in Sources */,
+				C2A2DDA221919E1C00D020C1 /* sProbeDroid-ext.swift in Sources */,
+				C2F3583C219455CF00EF243A /* sAlertPanel.swift in Sources */,
+				C2A2DD9E2190716A00D020C1 /* sJSONSerialization-ext.swift in Sources */,
+				C2A2DDA92193158200D020C1 /* sSpeechView.swift in Sources */,
+				C2A2DDAD2193616200D020C1 /* sSpeechEngine.swift in Sources */,
+				C2F3584B2196E56700EF243A /* sProbeDroidScene.swift in Sources */,
+				C2F358432195A9E400EF243A /* sAppController.swift in Sources */,
+				C293ADD2218F4D570042C7FD /* sDataSourceController.swift in Sources */,
+				C293ADD8218F4EBD0042C7FD /* sProbeDroidTableViewCell.swift in Sources */,
+				C2A2DDA0219194C800D020C1 /* sMockedDCS-ext.swift in Sources */,
+				C2F3584121958AB900EF243A /* sProbeDroidDataSourceObject.swift in Sources */,
+				C293ADB9218DBD3A0042C7FD /* sProbeDroid.swift in Sources */,
+				C293ADCD218F48D00042C7FD /* sDataSource.swift in Sources */,
+				C2F3586A2198A1D700EF243A /* sProbeDroidDataSource-ext.swift in Sources */,
+				C293ADDD218F50A10042C7FD /* sProbeDroidNode.swift in Sources */,
+				C293ADC1218EE7180042C7FD /* sMockedDCS.swift in Sources */,
+				C2F3586221971D8700EF243A /* sIntroScene.swift in Sources */,
+				C2F3583E219460D300EF243A /* sUIKit-ext.swift in Sources */,
+				C293AD45218CFEED0042C7FD /* sSceneKit-ext.swift in Sources */,
+				C2F3586821986CD200EF243A /* sDetection.swift in Sources */,
+				C2F3586021971AB800EF243A /* sSceneController.swift in Sources */,
+				C293ADE1218F9E850042C7FD /* sMockedDMS.swift in Sources */,
+				C2A2DDA42191F78D00D020C1 /* sProbeDroidMoveCordinator.swift in Sources */,
+				C2F3586C2198A37100EF243A /* sLocation.swift in Sources */,
+				C293AD43218CC6800042C7FD /* sFoundation-ext.swift in Sources */,
+				C2A2DDA7219312E500D020C1 /* sSpeechController.swift in Sources */,
+				C293ADCF218F4A680042C7FD /* sTableViewDataSource.swift in Sources */,
+				C2A2DDAB21935DF800D020C1 /* sProbeDroidSpeechInterpreter.swift in Sources */,
+				C22F1EF3218B5F6C008CC186 /* sAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C22F1EF6218B5F6C008CC186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22F1EF7218B5F6C008CC186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C22F1EFB218B5F6E008CC186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22F1EFC218B5F6E008CC186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22F1EFF218B5F6E008CC186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C22F1F00218B5F6E008CC186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22F1F02218B5F6E008CC186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94M3Z6LE6G;
+				INFOPLIST_FILE = DroidManagementSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spencers-dm.DroidManagementSystem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C22F1F03218B5F6E008CC186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94M3Z6LE6G;
+				INFOPLIST_FILE = DroidManagementSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spencers-dm.DroidManagementSystem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22F1EEA218B5F6C008CC186 /* Build configuration list for PBXProject "DroidManagementSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F1EFF218B5F6E008CC186 /* Debug */,
+				C22F1F00218B5F6E008CC186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22F1F01218B5F6E008CC186 /* Build configuration list for PBXNativeTarget "DMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F1F02218B5F6E008CC186 /* Debug */,
+				C22F1F03218B5F6E008CC186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22F1EE7218B5F6C008CC186 /* Project object */;
+}
