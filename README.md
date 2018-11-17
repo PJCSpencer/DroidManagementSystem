@@ -17,5 +17,5 @@ The Commlink button in the lower right corner is used to issue the commands. The
 The command to summon a droid:
 Droid number (number?)
 
-The command to relocate a droid:
+The command to relocate a droid within a 1000x1000 grid:
 Move to x (number?) y (number?)
